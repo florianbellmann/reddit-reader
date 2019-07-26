@@ -1,0 +1,22 @@
+{
+	"name": "reddit-reader",
+	"version": "1.0.0",
+	"description": "",
+	"private": true,
+	"main": "dist/index.js",
+	"scripts": {
+		"start": "NODE_ENV=development npx webpack-dev-server --hot",
+		"dev": "npx webpack --mode=development --config webpack.config.js --watch"
+	},
+	"keywords": [],
+	"author": "Florian Jüsten",
+	"license": "NOT LICENCED",
+	"dependencies": {
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6"
+	},
+	"devDependencies": {
+		"@types/react-dom": "^16.8.5",
+		"webpack": "^4.38.0"
+	}
+}
