@@ -3,20 +3,26 @@
 	"version": "1.0.0",
 	"description": "",
 	"private": true,
-	"main": "dist/index.js",
+	"main": "src/electron.js",
 	"scripts": {
-		"start": "NODE_ENV=development npx webpack-dev-server --hot",
-		"dev": "npx webpack --mode=development --config webpack.config.js --watch"
+		"start": "parcel src/index.html"
 	},
 	"keywords": [],
+	"browserslist": [
+		"last 2 Chrome versions"
+	],
 	"author": "Florian Jüsten",
 	"license": "NOT LICENCED",
 	"dependencies": {
+		"electron": "^6.0.12",
 		"react": "^16.8.6",
-		"react-dom": "^16.8.6"
+		"react-dom": "^16.8.6",
+		"rss-parser": "^3.7.2"
 	},
 	"devDependencies": {
+		"@types/node": "^12.7.12",
 		"@types/react-dom": "^16.8.5",
-		"webpack": "^4.38.0"
+		"parcel-bundler": "^1.12.4",
+		"typescript": "^3.6.4"
 	}
 }
