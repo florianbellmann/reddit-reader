@@ -5,7 +5,7 @@
 	"private": true,
 	"main": "src/electron.js",
 	"scripts": {
-		"start": "parcel src/index.html"
+		"start": "parcel src/index.html --no-cache"
 	},
 	"keywords": [],
 	"browserslist": [
@@ -17,12 +17,14 @@
 		"electron": "^6.0.12",
 		"react": "^16.8.6",
 		"react-dom": "^16.8.6",
-		"rss-parser": "^3.7.2"
+		"rss-parser": "^3.7.2",
+		"rsuite": "^4.0.4"
 	},
 	"devDependencies": {
 		"@types/node": "^12.7.12",
 		"@types/react-dom": "^16.8.5",
 		"parcel-bundler": "^1.12.4",
+		"parcel-plugin-less-js-enabled": "^1.0.2",
 		"typescript": "^3.6.4"
 	}
 }
