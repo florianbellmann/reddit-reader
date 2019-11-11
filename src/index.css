@@ -1,0 +1,12 @@
+body{
+  background: rgb(26, 29, 36);
+  padding:2rem;
+
+}
+*{ color:#bbb!important;}
+.rs-table-header-row-wrapper{display:none;}
+h1{
+  margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+h2{font-size: 2rem;}
