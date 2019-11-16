@@ -10,7 +10,7 @@ export class RedditRSSParser {
 
   constructor() {
     this._feedUrls = FeedUrls
-    this._parser = new RSSParser()
+    this._parser = new RSSParser({ headers: { "X-Requested-With": "XMLHttpRequest" } })
   }
 
   public async getFeedData() {

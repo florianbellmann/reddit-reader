@@ -5,7 +5,8 @@
 	"private": true,
 	"main": "src/electron.js",
 	"scripts": {
-		"start": "parcel src/index.html --no-cache"
+		"start": "parcel src/index.html --no-cache",
+		"package": "electron-packager ."
 	},
 	"keywords": [],
 	"browserslist": [
@@ -14,15 +15,17 @@
 	"author": "Florian Jüsten",
 	"license": "NOT LICENCED",
 	"dependencies": {
-		"electron": "^6.0.12",
+		"open": "^7.0.0",
 		"react": "^16.8.6",
 		"react-dom": "^16.8.6",
 		"rss-parser": "^3.7.2",
 		"rsuite": "^4.0.4"
 	},
 	"devDependencies": {
+		"electron": "^6.0.12",
 		"@types/node": "^12.7.12",
 		"@types/react-dom": "^16.8.5",
+		"electron-packager": "^14.1.0",
 		"parcel-bundler": "^1.12.4",
 		"parcel-plugin-less-js-enabled": "^1.0.2",
 		"typescript": "^3.6.4"
