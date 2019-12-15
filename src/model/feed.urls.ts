@@ -6,5 +6,6 @@ export const FeedUrls:string[]=[
   "https://www.reddit.com/r/technology/top/.rss",
   "https://www.reddit.com/r/programming/top/.rss",
   "https://www.reddit.com/r/commandline/top/.rss",
-  "https://www.reddit.com/r/zsh/top/.rss"
+  "https://www.reddit.com/r/zsh/top/.rss",
+  "https://www.reddit.com/r/InfluenceAdvice/new/.rss"
 ]
