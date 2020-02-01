@@ -1,5 +1,5 @@
-import React from 'react'
 import Parser from 'rss-parser'
+import React from 'react'
 import { Table } from 'rsuite'
 const { Column, HeaderCell, Cell } = Table
 
@@ -12,7 +12,7 @@ function openInNewTab(url) {
 
 export const Feed: React.FC<{ feed: Parser.Output }> = props => {
   const { feed } = props
-console.log('feed', feed)
+// console.log('feed', feed)
 
   let tableItems = []
   if (feed.items) {

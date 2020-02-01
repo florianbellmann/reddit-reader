@@ -22,9 +22,9 @@
 		"rsuite": "^4.0.4"
 	},
 	"devDependencies": {
-		"electron": "^6.0.12",
 		"@types/node": "^12.7.12",
 		"@types/react-dom": "^16.8.5",
+		"electron": "^6.0.12",
 		"electron-packager": "^14.1.0",
 		"parcel-bundler": "^1.12.4",
 		"parcel-plugin-less-js-enabled": "^1.0.2",
